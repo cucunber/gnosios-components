@@ -26,7 +26,6 @@ As Gnosis Safe allows to integrate third party applications ("Safe Apps"), these
 
 This library makes use of [material-ui - 4.X.X](https://material-ui.com/) and [styled-components - 5.X.X](https://styled-components.com/) as `peer dependencies`, this means you must install it in your Safe App. Make sure to provide the same version as the one being used by the current version of this library.
 
-
 Once everything is installed, you have to instantiate a [ThemeProvider](https://styled-components.com/docs/api#themeprovider) from [styled-components](https://styled-components.com/).
 
 This example uses the theme exported by safe-react-components. Here, you can extend this theme to customize it to your needs.
@@ -105,11 +104,13 @@ You can find documentation and examples of all our components in this [storybook
 ## Local development
 
 To develop on your local machine, install the dependencies (including the peer dependencies):
+
 ```
 yarn
 ```
 
 Launch the Storybook:
+
 ```
 yarn storybook
 ```
@@ -119,6 +120,7 @@ yarn storybook
 Snapshot tests are generated automatically from the Storybook stories using the [StoryShots addon](https://github.com/storybookjs/storybook/tree/master/addons/storyshots/storyshots-core).
 
 To run the tests locally:
+
 ```
 yarn test
 ```
