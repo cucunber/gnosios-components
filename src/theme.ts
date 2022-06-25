@@ -6,7 +6,7 @@ const theme = {
     },
   },
   colors: {
-    primary: '#008C73',
+    primary: '#3F51B5',
     primaryLight: '#A1D2CA',
     primaryHover: '#3F51B5',
 

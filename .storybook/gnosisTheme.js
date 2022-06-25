@@ -4,7 +4,7 @@ import theme from '../src/theme.ts';
 export default create({
   base: theme.colors.background,
 
-  colorPrimary: '#008C73',
+  colorPrimary: '#3F51B5',
   colorSecondary: '#005546',
 
   // UI
