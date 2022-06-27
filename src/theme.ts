@@ -19,7 +19,7 @@ const theme = {
     errorTooltip: '#ffe6ea',
 
     text: '#112137',
-    icon: '#B2B5B2',
+    icon: '#3F51B5',
     placeHolder: '#5D6D74',
     inputField: '#F0EFEE',
 
