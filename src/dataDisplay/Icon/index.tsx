@@ -84,7 +84,6 @@ import wallet from './images/wallet';
 import { ThemeColors, ThemeIconSize } from '../../theme';
 
 const StyledIcon = styled.span<{ color?: ThemeColors }>`
-  padding: 10px;
   display: inline-flex;
 
   .icon-color {
