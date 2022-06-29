@@ -59,6 +59,12 @@ const StyledAccordionSummary = styled(AccordionSummaryMUI)`
     }
 
     .MuiAccordionSummary-content {
+      font-size: 18px;
+      font-weight: 600;
+      b {
+        font-size: 18px;
+        font-weight: 800;
+      }
       &.Mui-expanded {
         margin: 0;
       }
