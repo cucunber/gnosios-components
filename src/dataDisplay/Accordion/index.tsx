@@ -19,10 +19,10 @@ type StyledAccordionProps = AccordionMUIProps & {
 
 const StyledAccordion = styled(AccordionMUI)<StyledAccordionProps>`
   &.MuiAccordion-root {
-    border-radius: ${({ $compact }) => ($compact ? '8px' : '0')};
-    border: ${({ $compact, theme }) =>
-      $compact ? '2px solid ' + theme.colors.separator : 'none'};
-    border-bottom: 2px solid ${({ theme }) => theme.colors.separator};
+    border-radius: ${({ $compact }) => ($compact ? '10px' : '0')};
+    /* border: ${({ $compact, theme }) =>
+      $compact ? '2px solid ' + theme.colors.separator : 'none'}; */
+    /* border-bottom: 2px solid ${({ theme }) => theme.colors.separator}; */
     margin-bottom: ${({ $compact }) => ($compact ? '16px' : '0')};
     overflow: hidden;
 
