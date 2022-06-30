@@ -19,10 +19,12 @@ type StyledAccordionProps = AccordionMUIProps & {
 
 const StyledAccordion = styled(AccordionMUI)<StyledAccordionProps>`
   &.MuiAccordion-root {
-    border-radius: ${({ $compact }) => ($compact ? '8px' : '0')};
-    border: ${({ $compact, theme }) =>
-      $compact ? '2px solid ' + theme.colors.separator : 'none'};
-    border-bottom: 2px solid ${({ theme }) => theme.colors.separator};
+    background: #f2f4f5;
+    border-radius: ${({ $compact }) => ($compact ? '10px' : '0')};
+    border: none;
+    /* border: ${({ $compact, theme }) =>
+      $compact ? '2px solid ' + theme.colors.separator : 'none'}; */
+    /* border-bottom: 2px solid ${({ theme }) => theme.colors.separator}; */
     margin-bottom: ${({ $compact }) => ($compact ? '16px' : '0')};
     overflow: hidden;
 
@@ -31,7 +33,7 @@ const StyledAccordion = styled(AccordionMUI)<StyledAccordionProps>`
     }
 
     &:first-child {
-      border-top: 2px solid ${({ theme }) => theme.colors.separator};
+      /* border-top: 2px solid ${({ theme }) => theme.colors.separator}; */
     }
 
     &.Mui-expanded {
@@ -48,7 +50,7 @@ const StyledAccordionSummary = styled(AccordionSummaryMUI)`
   &.MuiAccordionSummary-root {
     &.Mui-expanded {
       min-height: 48px;
-      border-bottom: 2px solid ${({ theme }) => theme.colors.separator};
+      /* border-bottom: 2px solid ${({ theme }) => theme.colors.separator}; */
       background-color: ${({ theme }) => theme.colors.background};
     }
 
@@ -57,6 +59,10 @@ const StyledAccordionSummary = styled(AccordionSummaryMUI)`
     }
 
     .MuiAccordionSummary-content {
+      b {
+        font-size: 18px;
+        font-weight: 800;
+      }
       &.Mui-expanded {
         margin: 0;
       }
