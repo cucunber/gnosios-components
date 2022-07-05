@@ -11,7 +11,7 @@ export default {
       <path
         className="icon-stroke"
         d="M17 18L12 15.82L7 18V5H17V18ZM17 3H7C6.46957 3 5.96086 3.21071 5.58579 3.58579C5.21071 3.96086 5 4.46957 5 5V21L12 18L19 21V5C19 3.89 18.1 3 17 3Z"
-        fill="currentColor"
+        fill="#CDD5DF"
       />
     </svg>
   ),
@@ -25,7 +25,7 @@ export default {
       <path
         className="icon-stroke"
         d="M17 18L12 15.82L7 18V5H17V18ZM17 3H7C6.46957 3 5.96086 3.21071 5.58579 3.58579C5.21071 3.96086 5 4.46957 5 5V21L12 18L19 21V5C19 3.89 18.1 3 17 3Z"
-        fill="currentColor"
+        fill="#CDD5DF"
       />
     </svg>
   ),
